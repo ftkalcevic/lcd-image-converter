@@ -1,0 +1,1518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5826adae-f0af-494b-a369-f53c11000670}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{71754ab6-66dd-4dd7-a4b4-b5e42e9c8708}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="classes\action-handlers\actionedithandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\action-handlers\actionfilehandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\action-handlers\actionfonthandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\action-handlers\actionhandlersbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\action-handlers\actionhelphandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\action-handlers\actionimagehandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\action-handlers\actionsetuphandlers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\convert\bitmaphelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\convert\bitstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-new\charactersmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\cmdline\cmdline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\convert\converterhelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\convert\convimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\datacontainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\prepare\demogenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\about\dialogabout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\resize\dialogcanvasresize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\dialogexternaleditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-changed\dialogfontchanged.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-preview\dialogfontpreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-range\dialogfontrange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-new\dialogfontselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-new\dialogfontselectdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\dialogoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\dialogpreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\save-changes\dialogsavechanges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\updates\dialogupdates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\documentoperator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-editor\editortabfont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\images\editortabimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\externaltooloptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\fontdocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\fonteditoroptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\convert\fonthelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\fontminimizeheight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\fontoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\fontresize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\historykeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\historyrecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\imagedocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageeditinexternaltool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\imageeditoroptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageexport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageflip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imagegrayscale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageimport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageinverse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\imageoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageresize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imagerotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\resize\imagesfilterproxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\operations\imageshift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\imagesmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\languageoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\main\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\matrix\matrixitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\matrixoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\matrix\matrixpreviewmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\cmdline\modeconvertfont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\cmdline\modeconvertimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\cmdline\modehex2bin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\cmdline\modeparserbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\parsedimagedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\prepareoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\preset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\recentlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\reordering\reorderingitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\reorderingoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\reordering\reorderingpreviewmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\resizesettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\data\revisioninfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\main\revisionlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\compression\rlecompressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\compression\rlesequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\setupdialogoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\font\setuptabfont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\image\setuptabimage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\matrix\setuptabmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\prepare\setuptabprepare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\reordering\setuptabreordering.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\setup\parts\templates\setuptabtemplates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\start\starttab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\status\statusdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\status\statusmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\parser\tags.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\settings\presets\templateoptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolcolor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolfill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolpen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolsmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\imageeditor\toolzoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-new\unicodeblocksfiltermodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\fonts\font-new\unicodeblocksmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\images\widgetbitmapeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\imageeditor\windoweditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionedithandlers.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionedithandlers.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionfilehandlers.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionfilehandlers.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionfonthandlers.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionfonthandlers.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionhandlersbase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionhandlersbase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionhelphandlers.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionhelphandlers.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionimagehandlers.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionimagehandlers.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_actionsetuphandlers.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_actionsetuphandlers.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_charactersmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_charactersmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_cmdline.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_cmdline.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_convimage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_convimage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_datacontainer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_datacontainer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_demogenerator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_demogenerator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogabout.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogabout.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogcanvasresize.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogcanvasresize.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogexternaleditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogexternaleditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogfontchanged.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogfontchanged.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogfontpreview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogfontpreview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogfontrange.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogfontrange.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogfontselect.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogfontselect.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogfontselectdata.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogfontselectdata.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogpreview.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogpreview.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogsavechanges.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogsavechanges.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_dialogupdates.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_dialogupdates.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_documentoperator.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_documentoperator.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_editor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_editor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_editortabfont.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_editortabfont.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_editortabimage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_editortabimage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_externaltooloptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_externaltooloptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_fontdocument.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_fontdocument.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_fonteditoroptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_fonteditoroptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_fonthelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_fonthelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_fontminimizeheight.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_fontminimizeheight.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_fontoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_fontoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_fontresize.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_fontresize.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_historykeeper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_historykeeper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_historyrecord.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_historyrecord.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imagedocument.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imagedocument.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageeditinexternaltool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageeditinexternaltool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageeditoroptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageeditoroptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageexport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageexport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageflip.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageflip.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imagegrayscale.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imagegrayscale.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageimport.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageimport.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageinverse.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageinverse.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageresize.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageresize.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imagerotate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imagerotate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imagesfilterproxy.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imagesfilterproxy.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imageshift.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imageshift.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_imagesmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_imagesmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_languageoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_languageoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_matrixoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_matrixoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_matrixpreviewmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_matrixpreviewmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_modeconvertfont.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_modeconvertfont.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_modeconvertimage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_modeconvertimage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_modehex2bin.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_modehex2bin.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_modeparserbase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_modeparserbase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_parsedimagedata.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_parsedimagedata.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_parser.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_parser.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_prepareoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_prepareoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_preset.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_preset.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_recentlist.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_recentlist.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_reorderingitemdelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_reorderingitemdelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_reorderingoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_reorderingoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_reorderingpreviewmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_reorderingpreviewmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_resizesettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_resizesettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_revisionlabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_revisionlabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_rlecompressor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_rlecompressor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setupdialogoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setupdialogoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setuptabfont.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setuptabfont.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setuptabimage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setuptabimage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setuptabmatrix.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setuptabmatrix.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setuptabprepare.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setuptabprepare.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setuptabreordering.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setuptabreordering.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_setuptabtemplates.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_setuptabtemplates.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_starttab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_starttab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_statusdata.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_statusdata.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_statusmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_statusmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_templateoptions.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_templateoptions.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolcolor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolcolor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolfill.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolfill.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolline.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolline.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolpen.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolpen.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolrect.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolrect.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolsmanager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolsmanager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_toolzoom.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_toolzoom.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_unicodeblocksfiltermodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_unicodeblocksfiltermodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_unicodeblocksmodel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_unicodeblocksmodel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_widgetbitmapeditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_widgetbitmapeditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\windows\.moc\moc_windoweditor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\windows\.moc\moc_windoweditor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_resources.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="classes\action-handlers\actionedithandlers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\action-handlers\actionfilehandlers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\action-handlers\actionfonthandlers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\action-handlers\actionhandlersbase.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\action-handlers\actionhelphandlers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\action-handlers\actionimagehandlers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\action-handlers\actionsetuphandlers.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="classes\parser\convert\bitmaphelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\parser\convert\bitstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="controls\fonts\font-new\charactersmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\cmdline\cmdline.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="classes\cmdline\cmdoptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\parser\convert\conversion_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\parser\convert\converterhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\parser\convert\convimage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\data\datacontainer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\prepare\demogenerator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\about\dialogabout.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\resize\dialogcanvasresize.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\dialogexternaleditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-changed\dialogfontchanged.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-preview\dialogfontpreview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-range\dialogfontrange.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-new\dialogfontselect.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-new\dialogfontselectdata.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\dialogoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\dialogpreview.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\save-changes\dialogsavechanges.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\updates\dialogupdates.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\documentoperator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\editor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-editor\editortabfont.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\images\editortabimage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\externaltooloptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\data\fontdocument.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\fonteditoroptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\parser\convert\fonthelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\fontminimizeheight.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\presets\fontoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\fontresize.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\data\historykeeper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\data\historyrecord.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="interfaces\idocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ieditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\imageeditor\iimageeditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\imageeditor\iimageeditorparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\imageeditor\iimageeditortool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\data\imagedocument.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageeditinexternaltool.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\imageeditoroptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageexport.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageflip.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imagegrayscale.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageimport.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageinverse.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\presets\imageoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageresize.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imagerotate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\resize\imagesfilterproxy.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\operations\imageshift.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\data\imagesmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="interfaces\imainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\operations\ioperation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\settings\languageoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\main\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="controls\setup\parts\matrix\matrixitemdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\settings\presets\matrixoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\matrix\matrixpreviewmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\cmdline\modeconvertfont.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\cmdline\modeconvertimage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\cmdline\modehex2bin.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\cmdline\modeparserbase.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\parser\parsedimagedata.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\parser\parser.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\presets\prepareoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\presets\preset.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="qt-version-check.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\settings\recentlist.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\reordering\reorderingitemdelegate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\presets\reorderingoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\reordering\reorderingpreviewmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\settings\resizesettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="classes\data\revisioninfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="controls\main\revisionlabel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\compression\rlecompressor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="classes\compression\rlesequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\settings\setupdialogoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\font\setuptabfont.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\image\setuptabimage.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\matrix\setuptabmatrix.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\prepare\setuptabprepare.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\reordering\setuptabreordering.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\templates\setuptabtemplates.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\start\starttab.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\status\statusdata.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\status\statusmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="classes\parser\tags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\settings\presets\templateoptions.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="classes\data\tfontparameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="classes\imageeditor\toolcolor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\toolfill.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\toolline.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\toolpen.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\toolrect.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\toolsmanager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\imageeditor\toolzoom.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-new\unicodeblocksfiltermodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-new\unicodeblocksmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\images\widgetbitmapeditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\imageeditor\windoweditor.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\lcd-image-converter-ru.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="resources\lcd-image-converter-ru.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="controls\about\dialogabout.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\resize\dialogcanvasresize.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\dialogexternaleditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-changed\dialogfontchanged.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-preview\dialogfontpreview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-range\dialogfontrange.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-new\dialogfontselect.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\dialogoptions.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\dialogpreview.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\updates\dialogupdates.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\fonts\font-editor\editortabfont.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\images\editortabimage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\main\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\font\setuptabfont.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\image\setuptabimage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\matrix\setuptabmatrix.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\prepare\setuptabprepare.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\reordering\setuptabreordering.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\setup\parts\templates\setuptabtemplates.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\start\starttab.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\images\widgetbitmapeditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controls\imageeditor\windoweditor.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\font.tmpl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\gpl-3.0-standalone.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\history.css">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\history.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\history.xsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\image.tmpl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\source\logo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="resources\resources.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="resources\scan_scripts\scan_bottom2top_backward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_bottom2top_backward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_bottom2top_forward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_bottom2top_forward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_left2right_backward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_left2right_backward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_left2right_forward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_left2right_forward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_right2left_backward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_right2left_backward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_right2left_forward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_right2left_forward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_template.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_top2bottom_backward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_top2bottom_backward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_top2bottom_forward.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scan_scripts\scan_top2bottom_forward_band.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\demos\scanning_background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\template.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_color.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_color_swap.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_fill.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_pen.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_rect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_rect_filled.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_rect_filled_outline.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_rect_outline.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icons\tools\tool_zoom.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\unicode_blocks.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_dialogabout.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogcanvasresize.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogexternaleditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogfontchanged.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogfontpreview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogfontrange.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogfontselect.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogoptions.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogpreview.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_dialogupdates.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_editortabfont.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_editortabimage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuptabfont.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuptabimage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuptabmatrix.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuptabprepare.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuptabreordering.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setuptabtemplates.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_starttab.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_widgetbitmapeditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_windoweditor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -410,6 +410,7 @@ void Parser::addImagesInfo(Tags &tags, QMap<QString, ParsedImageData *> *images)
     it.toFront();
 
     int maxWidth = 0, maxHeight = 0, maxBlocksCount = 0;
+	int minCharCode = -1, maxCharCode = -1;
 
     while (it.hasNext())
     {
@@ -428,18 +429,30 @@ void Parser::addImagesInfo(Tags &tags, QMap<QString, ParsedImageData *> *images)
                     int blocksCount = data->tags()->tagValue(Tags::OutputBlocksCount).toInt(&ok);
                     if (ok)
                     {
-                        if (width > maxWidth)
-                        {
-                            maxWidth = width;
-                        }
-                        if (height > maxHeight)
-                        {
-                            maxHeight = height;
-                        }
-                        if (blocksCount > maxBlocksCount)
-                        {
-                            maxBlocksCount = blocksCount;
-                        }
+						int charCode = data->tags()->tagValue(Tags::OutputCharacterCode).toInt(&ok,16);
+						if (ok)
+						{
+							if (width > maxWidth)
+							{
+								maxWidth = width;
+							}
+							if (height > maxHeight)
+							{
+								maxHeight = height;
+							}
+							if (blocksCount > maxBlocksCount)
+							{
+								maxBlocksCount = blocksCount;
+							}
+							if (minCharCode == -1 || charCode < minCharCode)
+							{
+								minCharCode = charCode;
+							}
+							if (maxCharCode == -1 || charCode > maxCharCode)
+							{
+								maxCharCode = charCode;
+							}
+						}
                     }
                 }
             }
@@ -452,7 +465,9 @@ void Parser::addImagesInfo(Tags &tags, QMap<QString, ParsedImageData *> *images)
     tags.setTagValue(Tags::OutputImagesCount, QString("%1").arg(images->count()));
     tags.setTagValue(Tags::OutputImagesMaxWidth, QString("%1").arg(maxWidth));
     tags.setTagValue(Tags::OutputImagesMaxHeight, QString("%1").arg(maxHeight));
-    tags.setTagValue(Tags::OutputImagesMaxBlocksCount, QString("%1").arg(maxBlocksCount));
+	tags.setTagValue(Tags::OutputImagesMaxBlocksCount, QString("%1").arg(maxBlocksCount));
+	tags.setTagValue(Tags::OutputImagesMinCharCode, QString("%1").arg(minCharCode));
+	tags.setTagValue(Tags::OutputImagesMaxCharCode, QString("%1").arg(maxCharCode));
 }
 //-----------------------------------------------------------------------------
 void Parser::imageParticles(const QString &templateString, QString *prefix, QString *suffix) const

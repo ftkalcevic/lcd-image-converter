@@ -85,6 +85,8 @@ public:
         OutputImagesMaxWidth,
         OutputImagesMaxHeight,
         OutputImagesMaxBlocksCount,
+		OutputImagesMinCharCode,
+		OutputImagesMaxCharCode,
 
         BlocksHeaderStart,
         BlocksHeaderEnd,
